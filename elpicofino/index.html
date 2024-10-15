@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Pico Fino - Tienda de Productos Gourmet</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <!-- Encabezado y Menú de Navegación -->
@@ -14,10 +16,29 @@
         <nav>
             <ul class="nav-menu">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Alimentación</a></li>
-                <li><a href="#">Bodegas</a></li>
-                <li><a href="#">Regalos Gourmet</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a href="#">Alimentación</a>
+                    <ul class="submenu">
+                        <li><a href="#">Quesos</a></li>
+                        <li><a href="#">Aceites</a></li>
+                        <li><a href="#">Embutidos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Bodegas</a>
+                    <ul class="submenu">
+                        <li><a href="#">Vinos Tintos</a></li>
+                        <li><a href="#">Vinos Blancos</a></li>
+                        <li><a href="#">Vinos Rosados</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Regalos Gourmet</a>
+                    <ul class="submenu">
+                        <li><a href="#">Cestas de Navidad</a></li>
+                        <li><a href="#">Regalos Personalizados</a></li>
+                    </ul>
+                </li>                <li><a href="#">Contacto</a></li>
                 <li class="iconos"><a href="#"><i class="fa fa-search"></i></a></li>
                 <li class="iconos"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
             </ul>
@@ -25,7 +46,7 @@
     </header>
 
     <!-- Sección Principal con Imagen y Mensaje -->
-    <section class="hero">
+    <section class="calltoaction">
         <h1>Elige nuestra mejor selección de productos</h1>
         <button class="explore-button">Explorar</button>
     </section>
@@ -36,28 +57,105 @@
         <div class="productos-grid">
             <!-- Producto 1 -->
             <div class="producto-item">
-                <img src="vino1.jpg" alt="Vino 1">
+                <img src="images/vino1.jpg" alt="Vino 1">
                 <h3>Vino Tinto 2018</h3>
                 <p>34,95€</p>
                 <button>Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="producto-item">
-                <img src="vino2.jpg" alt="Vino 2">
+                <img src="images/vino1.jpg" alt="Vino 2">
                 <h3>Vino Blanco 2020</h3>
                 <p>29,95€</p>
                 <button>Comprar</button>
             </div>
             <!-- Producto 3 -->
             <div class="producto-item">
-                <img src="vino3.jpg" alt="Vino 3">
+                <img src="images/vino1.jpg" alt="Vino 3">
                 <h3>Vino Rosado 2021</h3>
                 <p>19,95€</p>
                 <button>Comprar</button>
             </div>
-            <!-- Agrega más productos según sea necesario -->
+            <!-- Producto 4 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 1">
+                <h3>Vino Tinto 2018</h3>
+                <p>34,95€</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Producto 5 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 2">
+                <h3>Vino Blanco 2020</h3>
+                <p>29,95€</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <br>
+        <div class="productos-grid">
+            <!-- Producto 1 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 1">
+                <h3>Vino Tinto 2018</h3>
+                <p>34,95€</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Producto 2 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 2">
+                <h3>Vino Blanco 2020</h3>
+                <p>29,95€</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Producto 3 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 3">
+                <h3>Vino Rosado 2021</h3>
+                <p>19,95€</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Producto 4 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 1">
+                <h3>Vino Tinto 2018</h3>
+                <p>34,95€</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Producto 5 -->
+            <div class="producto-item">
+                <img src="images/vino1.jpg" alt="Vino 2">
+                <h3>Vino Blanco 2020</h3>
+                <p>29,95€</p>
+                <button>Comprar</button>
+            </div>
         </div>
         <button class="ver-mas">VER MÁS</button>
     </section>
+
+    <!-- Cajas de información-->
+    <div class="features-section">
+        <div class="feature-item">
+            <i class="fa fa-truck"></i>
+            <p>Envíos gratis a partir de 50€</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa fa-refresh"></i>
+            <p>Garantía de devolución</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa fa-envelope"></i>
+            <p>Atención al cliente 24 horas</p>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 EL PICO FINO. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a> | 
+            <a href="#">Términos de Uso</a> | 
+            <a href="#">Contacto</a>
+        </div>
+    </footer>
 </body>
 </html>
