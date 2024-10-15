@@ -1,0 +1,134 @@
+/* Archivo: styles.css */
+
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado y menú de navegación */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de la sección principal (hero) */
+.hero {
+    background-image: url('imagen-destacada.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #d95959;
+}
+
+/* Estilo de la tienda de productos gourmet */
+.tienda {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tienda h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.producto-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.producto-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.producto-item p {
+    color: #f76c6c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.producto-item button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.producto-item button:hover {
+    background-color: #555;
+}
+
+.ver-mas {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ver-mas:hover {
+    background-color: #555;
+}
