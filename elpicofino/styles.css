@@ -80,12 +80,13 @@ header {
     background-position: center; /* Centra la imagen de fondo */
     text-align: center;
     color: white;
-    padding: 60px 20px;
+    padding: 80px 20px;
     background-color: #333;
 }
 
 .explore-button {
     padding: 10px 20px;
+    margin-top: 20px;
     background-color: #f76c6c;
     color: white;
     border: none;
@@ -167,6 +168,44 @@ header {
 }
 
 
+/* Estilo de la sección Oferta Especial */
+.oferta-especial {
+    display: flex; /* Utiliza flexbox para el diseño */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 40px 20px; /* Espaciado interno de la sección */
+    background-color: #c5c1c1; /* Color de fondo de la sección */
+    text-align: justify;
+}
+
+.oferta-imagen {
+    flex: 1; /* El contenedor de la imagen ocupa 1 parte del espacio */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.oferta-imagen img {
+    max-width: 50%; /* Establece el ancho máximo al 70% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+    margin-left: 25%;
+}
+
+.oferta-texto {
+    flex: 1; /* El contenedor de texto ocupa 1 parte del espacio */
+    background-color: #fff; /* Color de fondo del texto */
+    padding: 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.oferta-texto h2 {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.oferta-texto p {
+    font-size: 1rem; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+}
 /* Estilos para los de caja de informacion  */
 .features-section {
     display: flex;
