@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - El Pico Fino</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+     <!-- Encabezado y Menú de Navegación -->
+     <header>
+        <div class="logo">EL PICO FINO</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="#">Alimentación</a>
+                    <ul class="submenu">
+                        <li><a href="alimentacion/quesos.html">Quesos</a></li>
+                        <li><a href="alimentacion/aceites.html">Aceites</a></li>
+                        <li><a href="alimentacion/embutidos.html">Embutidos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Bodegas</a>
+                    <ul class="submenu">
+                        <li><a href="bodega/vinos-tintos.html">Vinos Tintos</a></li>
+                        <li><a href="bodega/vinos-blancos.html">Vinos Blancos</a></li>
+                        <li><a href="bodega/vinos-rosados.html">Vinos Rosados</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Regalos Gourmet</a>
+                    <ul class="submenu">
+                        <li><a href="regalos/cestas-navidad.html">Cestas de Navidad</a></li>
+                        <li><a href="regalos/regalos-personalizados.html">Regalos Personalizados</a></li>
+                    </ul>
+                </li>               
+                <li><a href="contacto.html">Contacto</a></li>
+                <li class="iconos"><a href="#"><i class="fa fa-search"></i></a></li>
+                <li class="iconos"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Banner) -->
+    <section class="calltoaction">
+        <h1>Elige nuestra mejor selección de productos</h1>
+        <button class="explore-button">Explorar</button>
+    </section>
+
+    <!-- Sección del Carrito -->
+    <section class="carrito">
+        <h2>CARRITO</h2>
+        <div class="carrito-contenido">
+            <div class="tabla-productos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Productos</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="images/vino1.jpg" alt="Vino Ramón Bilbao 2018">
+                                <span>Ramón Bilbao 2018</span>
+                            </td>
+                            <td>15.00€</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/vino1.jpg" alt="Vino Aster El Espino">
+                                <span>Aster El Espino</span>
+                            </td>
+                            <td>12.00€</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="resumen-compra">
+                <div class="resumen">
+                    <p>3 artículos</p>
+                    <p>37.00€</p>
+                </div>
+                <div class="resumen">
+                    <p>Transporte</p>
+                    <p>3.99€</p>
+                </div>
+                <div class="resumen total">
+                    <p>TOTAL</p>
+                    <p>40.99€</p>
+                </div>
+                <button class="comprar-button">COMPRAR</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Atención al Cliente -->
+    <section class="atencion-cliente">
+        <h2>ATENCIÓN AL CLIENTE</h2>
+        <p>Contacte con nosotros, sin duda le ayudaremos a resolver sus dudas o consultas sobre productos o hacer su pedido.</p>
+        <br>
+        <div class="contacto">
+            <div>
+                <h3>Correo electrónico</h3>
+                <p>info@elpico-fino.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>+34 917 000 000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 EL PICO FINO. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a> |
+            <a href="#">Términos de Uso</a> |
+            <a href="#">Contacto</a>
+        </div>
+    </footer>
+</body>
+</html>
