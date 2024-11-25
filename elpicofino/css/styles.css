@@ -3,30 +3,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
+}
+
+main {
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-bottom: 3%;
+    background-color: #f7f2ec;
+    color:black;
 }
 
 /* Estilos del encabezado y menú de navegación */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido al principio (parte superior) */
+    align-items: center; /* Alinea el contenido horizontalmente al centro */
+    background-image: url('/images/banner-home-principal.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 10px 20px;
-    color: white;
+    height: 900px;
+    position: relative;
 }
 
+/* Estilos para el contenedor de navegación */
+nav {
+    display: flex; /* Alinea el logo y el menú en una línea */
+    justify-content: space-between; 
+    align-items: center; /* Alinea verticalmente los elementos */
+    width: 100%;
+    padding: 0 20px;
+    
+}
+
+/* Estilo de la sección principal (call to action) */
+.calltoaction {
+    text-align: center;
+    color: white;
+    padding: 15%;
+}
+
+/* Estilo del logo */
 .logo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    color: white;
+    padding: 10px;
 }
 
 /* Estilos del menú de navegación */
 .nav-menu {
-    list-style: none;
     display: flex;
-    gap: 15px;
-    position: relative;
+    justify-content: center; /* Centra los elementos dentro del menú */
+    list-style: none;
+    gap: 100px; /* Controla el espacio entre los elementos del menú */
+    width: 80%;
+    border-top: 1px solid white; 
+    border-bottom: 1px solid white;
 }
 
 .nav-menu li {
@@ -46,7 +81,7 @@ header {
     background-color: #444; /* Color de fondo del submenú */
     list-style: none;
     padding: 10px 0;
-    min-width: 150px;
+    min-width: 200px;
     z-index: 1; /* Asegura que el submenú esté encima de otros elementos */
 }
 
@@ -68,21 +103,14 @@ header {
 .nav-menu li:hover .submenu {
     display: block; /* Muestra el submenú cuando se pasa el cursor */
 }
+
 .iconos {
     display: flex;
     align-items: center;
+    margin-right: -40px;
 }
 
-/* Estilo de la sección principal (call to action) */
-.calltoaction {
-    /* background-image: url('images/banner.jpg');*/
-    background-size: cover; /* Ajusta la imagen para cubrir el área del banner */
-    background-position: center; /* Centra la imagen de fondo */
-    text-align: center;
-    color: white;
-    padding: 80px 20px;
-    background-color: #333;
-}
+
 
 .explore-button {
     padding: 10px 20px;

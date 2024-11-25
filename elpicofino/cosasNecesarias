@@ -1,0 +1,16 @@
+- Usar bootstrap
+- Una página de Registro y de Inicio de Sesión
+- Crear un modal de Bootstrap que sirva para informar al usuario cuando se haya
+    hecho una compra, registro, inicio de sesión, etc...
+- Una nueva página en la que ofrezcas algo nuevo sobre tu producto, pueden ser
+    promociones, eventos, un nuevo producto o servicio, etc...
+- Cambia el diseño de la página de pago con Bootstrap, hay muy buenos ejemplos en
+    su página web
+- Usa SASS para separar el CSS original de tu página en diferentes ficheros
+    según su funcionalidad o localización en la página y modifica los temas de Bootstrap para
+    que tenga sentido con los colores y diseño de tu página web.
+- Añade a tu página web un elemento de audio y otro de video que encaje con la
+    temática de tu web
+- Realiza un Slider de imágenes del restaurante con animaciones de CSS para tu
+    página web.
+- Añade alguna otra animación a elementos de tu página 
