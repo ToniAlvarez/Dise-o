@@ -1,0 +1,91 @@
+/* Sección de Atención al Cliente */
+.atencion-cliente {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.atencion-cliente h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contacto div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.atencion-cliente {
+    background-color: white;
+    padding: 40px;
+    margin: 30px auto;
+    width: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atencion-cliente h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.atencion-cliente p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    outline: none;
+    border-color: #f76c6c;
+}
+
+.enviar-button {
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enviar-button:hover {
+    background-color: #993333;
+}
+
