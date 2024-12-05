@@ -11,42 +11,26 @@
 <body>
     <!-- Encabezado y Menú de Navegación -->
     <header>
-        <div class="logo">EL PICO FINO</div>
         <nav>
+            <div class="logo">EL PICO FINO</div>
             <ul class="nav-menu">
                 <li><a href="/index.html">Inicio</a></li>
-                <li>
-                    <a href="#">Alimentación</a>
-                    <ul class="submenu">
-                        <li><a href="alimentacion/quesos.html">Quesos</a></li>
-                        <li><a href="alimentacion/aceites.html">Aceites</a></li>
-                        <li><a href="alimentacion/embutidos.html">Embutidos</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Bodegas</a>
-                    <ul class="submenu">
-                        <li><a href="bodega/vinos-tintos.html">Vinos Tintos</a></li>
-                        <li><a href="bodega/vinos-blancos.html">Vinos Blancos</a></li>
-                        <li><a href="bodega/vinos-rosados.html">Vinos Rosados</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Regalos Gourmet</a>
-                    <ul class="submenu">
-                        <li><a href="regalos/cestas-navidad.html">Cestas de Navidad</a></li>
-                        <li><a href="regalos/regalos-personalizados.html">Regalos Personalizados</a></li>
-                    </ul>
-                </li>               
-                <li><a href="#">Contacto</a></li>
-                <li class="iconos"><a href="#"><i class="fa fa-search"></i></a></li>
-                <li class="iconos"><a href="/views/carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="alimentacion.html">Alimentación</a></li>
+                <li><a href="bodega.html">Bodegas</a></li>
+                <li><a href="regalos.html">Regalos Gourmet</a></li>               
+                <li><a href="contacto.html">Contacto</a></li>
+                <li class="iconos"><a href="carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <li class="iconos"><a href="registro.html"><i class="fa fa-user"></i></a></li>
             </ul>
         </nav>
+        <div class="calltoaction">
+            <h1>Elige nuestra mejor selección de productos</h1>
+            <button class="explore-button" onclick="scrollToTienda()">Explorar</button>
+        </div>
     </header>
 
     <!-- Sección del Formulario de Contacto -->
-    <section class="atencion-cliente">
+    <section class="atencion-cliente" id="contacto">
         <h2>Formulario de Contacto</h2>
         <p>Si tienes alguna consulta o necesitas más información, no dudes en contactarnos. Completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.</p>
         
@@ -92,5 +76,12 @@
             <a href="#">Contacto</a>
         </div>
     </footer>
+    <script>
+        function scrollToTienda() {
+            document.getElementById('contacto').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 </html>

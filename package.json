@@ -2,7 +2,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3"
   },
-  "devDependencies": {
-    "sass": "^1.82.0"
+  "scripts": {
+    "sass": "sass --watch scss:css"
   }
 }
