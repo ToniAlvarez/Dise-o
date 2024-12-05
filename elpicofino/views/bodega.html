@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Pico Fino - Bodega</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado y Menú de Navegación -->
+    <header>
+        <nav>
+            <div class="logo">EL PICO FINO</div>
+            <ul class="nav-menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="alimentacion.html">Alimentación</a></li>
+                <li><a href="bodega.html">Bodegas</a></li>
+                <li><a href="regalos.html">Regalos Gourmet</a></li>               
+                <li><a href="contacto.html">Contacto</a></li>
+                <li class="iconos"><a href="carrito.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <li class="iconos"><a href="registro.html"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </nav>
+        <div class="calltoaction">
+            <h1>Elige nuestra mejor selección de productos</h1>
+            <button class="explore-button" onclick="scrollToTienda()">Explorar</button>
+        </div>
+    </header>
+
+    <!-- Tienda de Vinos -->
+    <main class="container my-5" id="bodega">
+        <h2 class="text-center mb-4">Nuestra Selección de Vinos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://vinogaleria.com/598-large_default/bordon-reserva-tinto-rioja.jpg" class="card-img-top" alt="Rioja Reserva">
+                    <div class="card-body">
+                        <h5 class="card-title">Rioja Reserva</h5>
+                        <p class="card-text">Vino tinto con 24 meses de crianza en barrica de roble y 12 meses en botella.</p>
+                        <p class="card-text"><strong>Precio: 24.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvo-4VBakpKnaxl1r4MsaZoMQrKjMhQKaGw&s" class="card-img-top" alt="Albariño">
+                    <div class="card-body">
+                        <h5 class="card-title">Albariño</h5>
+                        <p class="card-text">Vino blanco fresco y aromático de la D.O. Rías Baixas.</p>
+                        <p class="card-text"><strong>Precio: 18.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.despensa.es/documents/10180/10736/510366_G.jpg" class="card-img-top" alt="Ribera del Duero Crianza">
+                    <div class="card-body">
+                        <h5 class="card-title">Ribera del Duero Crianza</h5>
+                        <p class="card-text">Vino tinto con 12 meses de crianza en barrica de roble francés y americano.</p>
+                        <p class="card-text"><strong>Precio: 21.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202307/26/00118729100018____9__600x600.jpg" class="card-img-top" alt="Cava Brut Nature">
+                    <div class="card-body">
+                        <h5 class="card-title">Cava Brut Nature</h5>
+                        <p class="card-text">Cava elaborado con el método tradicional, sin adición de azúcar.</p>
+                        <p class="card-text"><strong>Precio: 15.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.torres.es/sites/default/files/2022-04/SECRETdelPRIORAT_1500x1500px.png" class="card-img-top" alt="Priorat">
+                    <div class="card-body">
+                        <h5 class="card-title">Priorat</h5>
+                        <p class="card-text">Vino tinto potente y estructurado de la D.O.Q. Priorat.</p>
+                        <p class="card-text"><strong>Precio: 32.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201606/10/00113355300172____2__1200x1200.jpg" class="card-img-top" alt="Jerez Amontillado">
+                    <div class="card-body">
+                        <h5 class="card-title">Jerez Amontillado</h5>
+                        <p class="card-text">Vino generoso de Jerez, con crianza oxidativa. Seco y complejo.</p>
+                        <p class="card-text"><strong>Precio: 28.99€</strong></p>
+                        <a href="#" class="btn btn-danger">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cajas de información -->
+    <div class="features-section">
+        <div class="feature-item">
+            <i class="fa fa-truck"></i>
+            <p>Envíos gratis a partir de 50€</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa fa-refresh"></i>
+            <p>Garantía de devolución</p>
+        </div>
+        <div class="feature-item">
+            <i class="fa fa-envelope"></i>
+            <p>Atención al cliente 24 horas</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 EL PICO FINO. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a> | 
+            <a href="#">Términos de Uso</a> | 
+            <a href="#">Contacto</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function scrollToTienda() {
+            document.getElementById('bodega').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
